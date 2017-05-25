@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'dos'; /*a name to be used later*/
+    src: url('dos.ttf'); /*URL to font*/
+}
+
+body {
+    font-family:'dos';
+    color: white;
+    text-align:center;
+margin: 0px;
+    /*background-image: url("tile.png");*/
+    background-color: rgb(105,105,105);
+    
+}
+
+#mode{
+text-align:center;
+margin: auto;
+width: 1000px;
+height: 20px;
+background-color: gray;
+color: black;
+
+}
+  
+#receive{
+float: right;
+width: 149px;
+background:none;    
+border:none; 
+font: inherit;
+/*border is optional*/
+color: white;
+cursor: pointer;
+padding:0!important;
+
+}  
+
+#receive:hover{
+        background-color: white;
+        color: rgb(0,12,238);
+        }
+  
+form, p, span {
+    margin:0;
+    padding:0; 
+
+    }
+  
+input { font:12px arial; }
+  
+a {
+    color:white;
+    text-decoration:none; }
+  
+    a:hover { 
+
+        background-color: white;
+        color: rgb(0,12,238);
+    }
+  
+#enter:hover {
+    background-color: white;
+        color: rgb(0,12,238);
+}
+  
+#wrapper, #loginform {
+    margin:3px auto;
+    padding-bottom:25px;
+    background-color:rgb(0,12,238);
+    width:504px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+#wrapper {
+float:left;
+margin-right: 10px;
+margin-left:200px;
+
+
+}
+
+#logout {color: white; }
+  
+#loginform { padding-top:18px; }
+  
+#loginform p { margin: 5px; }
+
+#name {    background-color:rgb(168,168,168)!important;
+            color:black!important;}
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:10px;
+    padding:10px;
+    height:270px;
+    width:484px;
+    overflow:auto;
+    background-color:rgb(0,12,238);
+    border-bottom: 1px solid white;
+ 
+    
+}
+#users {
+    text-align:left;
+    color:rgb(73,255,105);
+    margin:0 auto;
+    width:430px;
+    padding-bottom: 10px;
+}
+
+input[type=submit] {
+     background:none;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     color: white;
+     cursor: pointer;
+
+}
+ 
+#submitmsg:hover {
+        background-color: white;
+        color: rgb(0,12,238);
+} 
+
+#usermsg {
+    width:395px;
+
+    background-color:rgb(168,168,168);
+    color:black;
+    
+}
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { 
+    padding:12.5px 25px 12.5px 25px;
+    border-bottom: 1px solid white;
+    
+}
+
+#control {
+margin: 5px
+}
+
+#controlpanel {
+     width: 250px;
+     height: 150px;
+
+     background:black;
+     margin-top: 3px;
+
+     border-bottom: 10px solid gray;
+     border-top: 10px solid gray;
+     border-left: 2px solid gray;
+     border-right: 2px solid gray;
+     float:left;
+     margin-right:30px;
+
+
+     font: inherit;
+
+     color: white;
+
+}
+
+#tools {
+margin: auto;
+width: 120px;
+height: 20px;
+background-color: gray;
+
+}
+
+#clear{
+cursor: pointer;
+color: white;
+}
+
+#clear:hover { 
+        background-color: gray;
+        color: black;
+    }
+
+#destroy {
+cursor: pointer;
+}
+
+#destroy:hover { 
+        background-color: gray;
+        color: black;
+}
+
+#folio{
+cursor: pointer;
+color: white;
+}
+
+#folio:hover { 
+        background-color: gray;
+        color: black;
+    }
+ 
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
